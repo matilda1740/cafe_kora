@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="https://kit.fontawesome.com/48e39edd0b.js" crossorigin="anonymous"></script>
+    <title>Cafe Kora | Checkout Page</title>
+</head>
+
+<body>
+    <section class="main_page_section">
+        <section class="checkout_page">
+            <div class="checkout_column">
+                <div class="review_order">
+                    <h4>1. REVIEW ORDER</h4>
+                    
+                    <div class="product_review_div">
+                        <div class="products_image_div">
+                            <img class="product_img" src="/images/breads/idk3.png" alt="">
+                            <h3 class="product_title">Sourdough</h3>
+                        </div>
+                        <div class="products_desc_div">
+                            <div class="quantity_controls">
+                                <p>Quantity</p>
+                    
+                                <i class="fas fa-minus"></i>
+                                <p>2</p>
+                                <i class="fas fa-plus"></i>
+                            </div>
+                            <button class="btn_purchase">
+                                <p class="product_price">Ksh. 900.00 </p>
+                            </button>
+                        </div>
+                    
+                        <div class="products_image_div">
+                            <img class="product_img" src="/images/pastries/nobg_chocolatecroissant.png" alt="">
+                            <h3 class="product_title">Chocolate Croissants</h3>
+                        </div>
+                        <div class="products_desc_div">
+                            <div class="quantity_controls">
+                                <p>Quantity</p>
+                    
+                                <i class="fas fa-minus"></i>
+                                <p>1</p>
+                                <i class="fas fa-plus"></i>
+                            </div>
+                            <button class="btn_purchase">
+                                <p class="product_price">Ksh. 550.00 </p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- subtotal -->
+                <div class="order_subtotal">
+                    <h4>2. SUBTOTAL</h4>
+                    <div class="order_subtotal_row">
+                        <p>Subtotal</p>
+                        <p>Ksh. 1450.00</p>
+                    </div>
+                    <div class="order_subtotal_row">
+                        <p>Order Total</p>
+                        <p>Ksh. 1450.00</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="checkout_column">
+                <div class="payment_info">
+                    <h4>3. SELECT PAYMENT METHOD</h4>
+                
+                    <div class="payment_info_row">
+                        <i class="fas fa-credit-card"></i>
+                        <p>Credit Card</p>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                
+                    <div class="payment_info_row">
+                        <i class="fab fa-paypal"></i>
+                        <p>Paypal</p>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>              
+                </div>
+
+                <div class="payment_info">
+                    <h4>4. SELECT SHIPMENT METHOD</h4>
+                
+                    <div class="payment_info_row">
+                        <i class="fas fa-archive"></i>                        
+                        <p>Pickup</p>
+                    </div>
+                
+                    <div class="payment_info_row">
+                        <i class="fas fa-car"></i>
+                        <p>Delivery</p>
+                        <!-- <i class="fas fa-arrow-right"></i> -->
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="checkout_column delivery_info">
+                <h4>5. DELIVERY INFORMATION</h4>
+
+                <form class="registration_form">
+                    <label class="form_labels">First Name:</label>
+                    <input type="text" class="form_inputs" name="registerFname" />
+                    <label class="form_labels">Last Name:</label>
+                    <input type="text" class="form_inputs" name="registerLname" />
+                    <label class="form_labels">Email:</label>
+                    <input type="email" class="form_inputs" name="registerEmail" />
+                    <label class="form_labels">Phone Number:</label>
+                    <input type="text" class="form_inputs" name="registerPass" />
+                    <label class="form_labels">Delivery Address:</label>
+                    <input type="text" class="form_inputs" name="registerConfirmPass" />
+                    <label class="form_labels">Postal Code:</label>
+                    <input type="text" class="form_inputs" name="registerConfirmPass" />  
+                    
+                    <button type="submit" class="form_btn ">PAY NOW</button>
+                    
+                </form>
+            </div>
+
+        </section>
+    </section>
+
+    <!-- SCRIPTS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
